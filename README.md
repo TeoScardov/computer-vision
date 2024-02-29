@@ -59,6 +59,6 @@ python Sudoku.py puzzle.png custom_templates/
 - Preprocessing: The image is converted to grayscale and then to a binary image using adaptive thresholding to highlight the grid and numbers.
 - Line Detection: Uses Hough line detection to find the grid lines and isolate the sudoku cells.
 - Number Detection: Recognizes numbers in each cell by comparing with templates.
-- Output: Prints the solved Sudoku grid to the console.
+- Output: Prints the Sudoku grid to the console.
 
 Press Enter to exit the program after viewing the output.
